@@ -1,7 +1,18 @@
 # fgscrollable
 animations au scroll
 
-# utilisation
+# prérequis 
+Nécessite l'utilisation de la librairie d'animation GreenSock (ave cplugin CSS) : 
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+```
+ou
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+```
+
+# utilisation
 
 ```javascript
 jQuery(function () { 
